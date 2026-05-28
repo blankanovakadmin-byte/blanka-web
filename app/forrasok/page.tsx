@@ -116,10 +116,10 @@ function ResourceCard({ resource }: { resource: ResourceType }) {
         </Badge>
       </div>
 
-      <div className="flex-1">
+      <div className="flex-1 flex flex-col">
         <h3 className="font-display text-lg font-bold text-brand-blue mb-1">{resource.title}</h3>
-        <p className="font-sans text-sm text-brand-muted leading-relaxed">{resource.description}</p>
-        <div className="flex flex-wrap gap-1 mt-3">
+        <p className="font-sans text-sm text-brand-muted leading-relaxed line-clamp-2">{resource.description}</p>
+        <div className="flex flex-wrap gap-1 mt-3 mt-auto pt-3">
           {resource.tags.map(t => (
             <span key={t} className="font-sans text-xs text-brand-muted bg-brand-border px-2 py-0.5 rounded-full">{t}</span>
           ))}
