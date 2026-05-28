@@ -16,7 +16,7 @@ const legalLinks = [
 ];
 
 const socialLinks = [
-  { href: 'https://instagram.com/novakblanka', icon: InstagramIcon, label: 'Instagram' },
+  { href: 'https://instagram.com/blankanovak_', icon: InstagramIcon, label: 'Instagram' },
   { href: 'https://linkedin.com/in/novakblanka', icon: LinkedinIcon, label: 'LinkedIn' },
 ];
 
@@ -90,7 +90,7 @@ export function Footer() {
                 </a>
               ))}
               <a
-                href="https://tiktok.com/@novakblanka"
+                href="https://tiktok.com/@blankanovak"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"

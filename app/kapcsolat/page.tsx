@@ -12,7 +12,7 @@ import { InstagramIcon, YoutubeIcon, LinkedinIcon } from '@/components/ui/Social
 import { Mail, Check, Send, Calendar } from 'lucide-react';
 
 const socialLinks = [
-  { href: 'https://instagram.com/novakblanka', icon: InstagramIcon, label: 'Instagram', handle: '@novakblanka' },
+  { href: 'https://instagram.com/blankanovak_', icon: InstagramIcon, label: 'Instagram', handle: '@blankanovak_' },
   { href: 'https://youtube.com/@novakblanka',  icon: YoutubeIcon,   label: 'YouTube',   handle: '@novakblanka' },
   { href: 'https://linkedin.com/in/novakblanka', icon: LinkedinIcon, label: 'LinkedIn',  handle: 'Novák Blanka' },
 ];
