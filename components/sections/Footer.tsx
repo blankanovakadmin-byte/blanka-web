@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { InstagramIcon, YoutubeIcon, LinkedinIcon, TiktokIcon } from '@/components/ui/SocialIcons';
+import { InstagramIcon, LinkedinIcon, TiktokIcon } from '@/components/ui/SocialIcons';
 
 const navLinks = [
   { href: '/',          label: 'Kezdőlap' },
@@ -11,7 +11,6 @@ const navLinks = [
 
 const socialLinks = [
   { href: 'https://instagram.com/novakblanka', icon: InstagramIcon, label: 'Instagram' },
-  { href: 'https://youtube.com/@novakblanka',  icon: YoutubeIcon,   label: 'YouTube' },
   { href: 'https://linkedin.com/in/novakblanka', icon: LinkedinIcon, label: 'LinkedIn' },
 ];
 

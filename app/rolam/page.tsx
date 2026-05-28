@@ -69,7 +69,7 @@ export default function RolamPage() {
                 van szükség.
               </p>
               <div className="flex flex-wrap gap-3 pt-2">
-                {['🇬🇧 Angol', '🇮🇹 Olasz', '🇪🇸 Spanyol', '🇨🇳 Mandarin'].map(lang => (
+                {['🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angol', '🇮🇹 Olasz', '🇪🇸 Spanyol', '🇨🇳 Mandarin'].map(lang => (
                   <span key={lang} className="font-sans text-sm bg-white border border-brand-border px-3 py-1.5 rounded-full text-brand-blue">
                     {lang}
                   </span>
