@@ -37,7 +37,7 @@ function InfoTable({ rows }: { rows: [string, string][] }) {
 function Warning({ children }: { children: React.ReactNode }) {
   return (
     <div className="bg-[#FEF9EC] border border-[#F5D87A] rounded-xl p-4 text-sm text-[#7A5C00] leading-relaxed my-4">
-      ⚠️ {children}
+      {children}
     </div>
   );
 }

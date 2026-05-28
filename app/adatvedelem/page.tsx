@@ -273,8 +273,8 @@ export default function AdatvedelemPage() {
           <Section title="7. Joggyakorlás — hogyan kell kérni?">
             <div className="bg-brand-purple-light rounded-xl border border-brand-purple/20 p-5">
               <p className="font-semibold text-brand-blue mb-3">Kapcsolat</p>
-              <p className="text-sm text-brand-muted mb-1">📧 <strong>E-mail:</strong> hello@novakblanka.hu</p>
-              <p className="text-sm text-brand-muted">📮 <strong>Levél:</strong> 3300 Eger, Mikes Kelemen utca 21.</p>
+              <p className="text-sm text-brand-muted mb-1"><strong>E-mail:</strong> hello@novakblanka.hu</p>
+              <p className="text-sm text-brand-muted"><strong>Levél:</strong> 3300 Eger, Mikes Kelemen utca 21.</p>
             </div>
             <p>A kérelem beérkezésétől számított <strong>30 napon belül</strong> válaszolunk. Indokolt esetben ez 60 napra meghosszabbítható.</p>
             <p>A joggyakorlás <strong>ingyenes</strong>. Az azonosítás érdekében kérhetjük az érintett személyazonosságának igazolását.</p>
@@ -290,12 +290,12 @@ export default function AdatvedelemPage() {
           <Section title="8. Adatbiztonság">
             <div className="grid sm:grid-cols-2 gap-3">
               {[
-                ['🔒 HTTPS / TLS titkosítás', 'A weboldal és az API kommunikáció titkosított'],
-                ['🔗 Signed URL-ek', 'A letölthető fájlok időkorlátosan és egyedi linkeken érhetők el (72 óra)'],
-                ['👤 Hozzáférés-korlátozás', 'Az adatokhoz kizárólag az arra feljogosított személyek férnek hozzá'],
-                ['💳 Stripe PCI DSS', 'Fizetési adatokat kizárólag a Stripe kezeli — bankkártyaadathoz a Szolgáltató nem fér hozzá'],
-                ['🔄 Rendszeres frissítések', 'A Weboldal szoftvereinek naprakészen tartása'],
-                ['⚡ 72 órás NAIH értesítés', 'Adatvédelmi incidens esetén a Szolgáltató 72 órán belül értesíti a NAIH-t'],
+                ['HTTPS / TLS titkosítás', 'A weboldal és az API kommunikáció titkosított'],
+                ['Signed URL-ek', 'A letölthető fájlok időkorlátosan és egyedi linkeken érhetők el (72 óra)'],
+                ['Hozzáférés-korlátozás', 'Az adatokhoz kizárólag az arra feljogosított személyek férnek hozzá'],
+                ['Stripe PCI DSS', 'Fizetési adatokat kizárólag a Stripe kezeli — bankkártyaadathoz a Szolgáltató nem fér hozzá'],
+                ['Rendszeres frissítések', 'A Weboldal szoftvereinek naprakészen tartása'],
+                ['72 órás NAIH értesítés', 'Adatvédelmi incidens esetén a Szolgáltató 72 órán belül értesíti a NAIH-t'],
               ].map(([title, desc]) => (
                 <div key={title} className="bg-white rounded-xl border border-brand-border p-4">
                   <p className="font-semibold text-brand-blue text-sm mb-1">{title}</p>
