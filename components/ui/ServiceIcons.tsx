@@ -2,18 +2,19 @@ interface Props { size?: number; className?: string }
 
 export function TargetIcon({ size = 64, className }: Props) {
   return (
-    <svg width={size} height={size} viewBox="-5 -5 110 110" fill="none" className={className}>
+    <svg width={size} height={size} viewBox="0 0 100 100" fill="none" overflow="visible" className={className}>
+      {/* Background circle */}
       <circle cx="50" cy="50" r="50" fill="#F3EAFC"/>
-      {/* Outer ring — thick band */}
-      <circle cx="50" cy="55" r="30" stroke="#B06AD9" strokeWidth="7" fill="none"/>
+      {/* Outer ring */}
+      <circle cx="50" cy="56" r="26" stroke="#B06AD9" strokeWidth="6.5" fill="none"/>
       {/* Middle ring */}
-      <circle cx="50" cy="55" r="18" stroke="#B06AD9" strokeWidth="7" fill="none"/>
+      <circle cx="50" cy="56" r="15" stroke="#B06AD9" strokeWidth="6.5" fill="none"/>
       {/* Center dot */}
-      <circle cx="50" cy="55" r="8" fill="#B06AD9"/>
+      <circle cx="50" cy="56" r="6.5" fill="#B06AD9"/>
       {/* Arrow shaft */}
-      <line x1="75" y1="30" x2="55" y2="50" stroke="#B06AD9" strokeWidth="5" strokeLinecap="round"/>
-      {/* Arrow head (flag/triangle) */}
-      <polygon points="76,18 86,32 70,28" fill="#B06AD9"/>
+      <line x1="70" y1="33" x2="53" y2="51" stroke="#B06AD9" strokeWidth="5" strokeLinecap="round"/>
+      {/* Arrow head */}
+      <polygon points="68,22 79,34 65,33" fill="#B06AD9"/>
     </svg>
   );
 }
